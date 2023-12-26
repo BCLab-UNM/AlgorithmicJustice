@@ -19,7 +19,8 @@
 		vertical-align: baseline;
 	}
 .image.fit img {
-	height: auto;
+	width: auto;
+
 }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
