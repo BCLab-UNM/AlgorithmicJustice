@@ -1817,12 +1817,12 @@
 	}
 
 		.box .image.fit {
-			margin: 100;
+			margin: 0;
 			border-radius: 0;
 		}
 
 			.box .image.fit img {
-				border-radius: 0;
+				border-radius: 10;
 			}
 
 		.box header h2 {
