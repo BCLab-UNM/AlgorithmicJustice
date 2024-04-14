@@ -2336,7 +2336,7 @@
 		}
 
 		.image.left, .image.right {
-			max-width: 20%;
+			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
@@ -2372,7 +2372,7 @@
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 50%;
 			}
 
 /* List */
