@@ -1822,7 +1822,7 @@
 		}
 
 			.box .image.fit img {
-				border-radius: 10;
+				border-radius: 0;
 			}
 
 		.box header h2 {
@@ -2336,7 +2336,7 @@
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 20%;
 		}
 
 			.image.left img, .image.right img {
