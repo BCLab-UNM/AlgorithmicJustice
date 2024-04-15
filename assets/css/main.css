@@ -4038,9 +4038,9 @@
 		}
 
 		.banner.full {
-			padding: 0;
+			padding: 50;
 			min-height: 100vh;
-			height: 50%vh !important;
+			height: 100vh !important;
 		}
 
 		.banner.half {
