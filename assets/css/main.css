@@ -4040,7 +4040,7 @@
 		.banner.full {
 			padding: 0;
 			min-height: 100vh;
-			height: 70vh !important;
+			height: 50%vh !important;
 		}
 
 		.banner.half {
