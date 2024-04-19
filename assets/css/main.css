@@ -3465,7 +3465,7 @@
 		}
 
 		.grid-style .box {
-			margin: 0;
+			margin: 0; <!-- Changes width of boxes -->
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4002,7 +4002,7 @@
 /* Banner */
 
 	.banner {
-		background-color: #8a4680;
+		background-color: #0a0606;<!--Background color of banner -->
 		color: #e2d1df;
 		padding: 8em 0;
 		position: relative;
@@ -4040,7 +4040,7 @@
 		.banner.full {
 			padding: 0;
 			min-height: 50vh;
-			height: 100vh !important;
+			height: 83vh !important;
 		}
 
 		.banner.half {
