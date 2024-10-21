@@ -1555,10 +1555,6 @@
 
 /* Basic */
 
-	@-ms-viewport {
-		width: device-width;
-	}
-
 	body {
 		-ms-overflow-style: scrollbar;
 	}
@@ -1879,33 +1875,25 @@
 
 	}
 /* Box2 */
-
-/* Container to hold the boxes */
-
-
-	/* Style for individual box elements */
 	.box2 {
 		background: #FFF;
-		width: 30%;                   /* Width of each box (approx 30% of container width) */
-		height: auto;                 /* Flexible height */
+		width: 30%;
+		height: auto;
 		margin-bottom: 2rem;
 		box-sizing: border-box;
-		border: 1px solid rgba(144, 144, 144, 0.25); /* Border around boxes */
+		border: 1px solid rgba(144, 144, 144, 0.25);
 	}
 		.container {
 			display: flex;
 			justify-content: space-between;
 			flex-wrap: wrap;
 			gap: 10px;
-			margin-bottom: 50px; /* Add a margin to the bottom to prevent overlap */
+			margin-bottom: 50px;
 		}
 		.clearfix {
 			clear: both;
 		}
 
-
-
-/* Ensures the image inside the box fits properly */
 		.box2 .image.fit {
 			margin: 0;
 			border-radius: 0;
@@ -1913,11 +1901,10 @@
 
 			.box2 .image.fit img {
 				border-radius: 0;
-				width: 100%;                  /* Image fills the width of the box */
-				height: auto;                 /* Maintains image aspect ratio */
+				width: 100%;
+				height: auto;
 			}
 
-		/* Header styling */
 		.box2 header h2 {
 			margin-bottom: 2rem;
 		}
@@ -1932,7 +1919,6 @@
 			position: relative;
 		}
 
-		/* Decorative line after the paragraph in header */
 			.box2 header p:after {
 				content: '';
 				position: absolute;
@@ -1946,12 +1932,10 @@
 
 			}
 
-		/* Padding for content inside the box */
 		.box2 .content {
 			padding: 3rem;
 		}
 
-		/* Removes unnecessary margins */
 		.box2 > :last-child,
 		.box2 > :last-child > :last-child,
 		.box2 > :last-child > :last-child > :last-child {
@@ -1964,14 +1948,13 @@
 			padding: 0;
 		}
 
-		/* Media query for responsiveness */
 		@media screen and (max-width: 768px) {
 			.box2 {
-				width: 100%;              /* Boxes take full width on smaller screens */
+				width: 100%;
 			}
 
 			.box2 .content {
-				padding: 2rem;            /* Adjusts padding on smaller screens */
+				padding: 2rem;
 			}
 		}
 
